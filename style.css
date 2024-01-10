@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color:rgb(133, 95, 231);
+    display:flex; 
+}
+#part1{
+height: 100%;
+width:26%;
+
+}
+#part2{
+    height: 100%;
+    width:68%;
+   position:relative;
+    background-color:lavenderblush;
+    background-image:url('https://images.unsplash.com/photo-1610041321327-b794c052db27?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhlYWRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D');
+    background-size:cover;
+    background-position: center;
+}
+
+#part3{
+    height: 100%;
+width:7%;
+
+}
+#texti{
+  height:100%;
+  position:absolute;
+  width:400px;
+  left:15%;
+  top:50%;
+  bottom:40%;
+  font-size: x-large;
+  color: white;
+   
+   font-family: cursive;
+}
+#texti>h1{
+    font-size: 60px;
+    font-weight: 50px;
+    line-height: 55px;
+    
+}
+#texti>h2{
+    font-size:50px;
+}
+#small-img{
+    height:400px;
+    width:300px;
+    background-color:rgb(180, 137, 220);
+    position: absolute;
+    bottom:45%;
+    right:5%;
+ background-position: cover;
+    background-image: url('https://images.unsplash.com/photo-1566055972289-c52022ae23b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhlYWRwaG9uZSUyMGdhbWV8ZW58MHx8MHx8fDA%3D');
+}
+#vertical-text{
+    position:absolute;
+    
+    transform:rotate(90deg);
+    right:50%;
+     left:100%;
+     transform-origin: 0% 0%;
+     top:2%;
+
+
+  
+
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight:700;
+    font-family: cursive;
+    color:transparent;
+    letter-spacing:6px;
+    -webkit-text-stroke-width:2px ;
+    -webkit-text-stroke-color: white;
+  
+
+    
+}
+#nav{
+   
+    position:absolute;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px; 
+    height: 100px;
+  
+    border-radius: 50%;
+    background-color: pink;
+    
+}
+#nav>h1{
+   text-shadow: 1px;
+   font-size: 60px;
+   gap:5px;
+}
+
